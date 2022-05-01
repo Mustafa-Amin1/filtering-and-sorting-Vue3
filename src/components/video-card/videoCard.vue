@@ -11,11 +11,11 @@
             <div class="card-text title text-right my-3">
               {{ video.title }}
             </div>
-            <img
-              class="card-img-top img-fluid"
-              src="../../assets/images/youtube-blank.png"
-              alt="Card image cap"
-            />
+            <video class="w-100" height="240" controls>
+              <source src="../../assets/videos/movie.mp4" type="video/mp4" />
+              <!-- <source src="../../assets/videso/movie.ogg" type="video/ogg" /> -->
+              Your browser does not support the video tag.
+            </video>
             <div class="card_footer mt-3">
               <!-- <div class="container-fluid"> -->
               <div class="row justify-content-between">
