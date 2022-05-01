@@ -13,11 +13,9 @@
             </div>
             <video class="w-100" height="240" controls>
               <source src="../../assets/videos/movie.mp4" type="video/mp4" />
-              <!-- <source src="../../assets/videso/movie.ogg" type="video/ogg" /> -->
               Your browser does not support the video tag.
             </video>
             <div class="card_footer mt-3">
-              <!-- <div class="container-fluid"> -->
               <div class="row justify-content-between">
                 <div class="col-lg-5 card_footer-actions text-left">
                   <div class="row justify-content-start">
@@ -36,7 +34,6 @@
                   </div>
                 </div>
               </div>
-              <!-- </div> -->
             </div>
           </div>
         </div>
