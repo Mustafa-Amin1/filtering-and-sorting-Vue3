@@ -1,0 +1,40 @@
+$vw-viewport: 1342;
+
+@function get-vw($font) {
+  $vw-context: $vw-viewport * 0.01 * 1px;
+  @return $font / $vw-context * 1vw;
+  @return $font;
+}
+
+#videoCard {
+  margin-inline: get-vw(170px);
+  margin-bottom: 10rem;
+
+}
+
+.card {
+
+  .card-body {
+    .card-title {}
+
+    .published {}
+
+    .card-img {}
+  }
+
+  .card_footer {
+    a {
+      color: #65676b
+    }
+
+    &-info {
+      text-align: right;
+    }
+
+    &-actions {
+      text-align: left;
+
+    }
+  }
+
+}
